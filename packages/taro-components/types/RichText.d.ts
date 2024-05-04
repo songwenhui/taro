@@ -11,7 +11,7 @@ interface RichTextProps extends StandardProps {
    */
   nodes?: Nodes
   /** 显示连续空格
-   * @supported weapp, alipay, qq, h5, rn
+   * @supported weapp, alipay, tt, qq, h5, rn
    */
   space?: keyof RichTextProps.TSpace
   /** 富文本是否可以长按选中，可用于复制，粘贴，长按搜索等场景
@@ -99,7 +99,7 @@ declare namespace RichTextProps {
 }
 /** 富文本
  * @classification base
- * @supported weapp, swan, alipay, tt, h5, rn, harmony
+ * @supported weapp, swan, alipay, tt, h5, rn, harmony, harmony_hybrid
  * @example_react
  * ```tsx
  * class App extends Components {
